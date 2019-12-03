@@ -1,0 +1,5 @@
+select e.empid, e.lastname AS EmployeeName, e.title, e.mgrid,
+m.lastname AS ManagerName
+FROM HR.Employees AS e
+JOIN HR.Employees AS m
+ON e.mgrid=m.empid;
