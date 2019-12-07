@@ -145,7 +145,3 @@ END AS iscampaign
 FROM [Production].[Products]
 
 
---zadanie 17
-
-/*17. Napisz instrukcjê SELECT, która zwróci kolumnê productname z tabeli Production.Products (u¿yj aliasu tabeli "p") i kolumny categoryname z tabeli Production.Categories (u¿yj aliasu tabeli "c"), u¿ywaj¹c inner join.  
-Powiedzmy, ¿e istnieje nowy wiersz w tabeli Production.Categories, a ta nowa kategoria produktów nie zawiera ¿adnych produktów powi¹zanych z ni¹ w tabeli Production.Products. Czy ten wiersz zostanie uwzglêdniony w wyniku instrukcji SELECT zapisanej w zadaniu? Proszê wyt³umacz. */
